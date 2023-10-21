@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f0ebdf;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  /* overflow: hidden; */
+}
+/* Header */
+header {
+  background: #f0ebdf;
+  margin-top: 34px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+#branding {
+  font-size: 36px;
+  color: #072c27;
+}
+header .accent {
+  font-weight: 400;
+}
+nav {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: 20px;
+  padding: 30px;
+  background: #eae0c8;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header li {
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+header a {
+  text-decoration: none;
+  color: #072c27;
+  display: block;
+}
+
+header i {
+  border: 1px solid red;
+  align-items: center;
+  font-size: 24px;
+}
+.btn {
+  display: block;
+  background: hsla(35, 78%, 68%, 1);
+  padding: 20px 15px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 20px;
+}
